@@ -1,5 +1,5 @@
 User Login and Profile Management System
-This project implements a user registration, login and profile management system using PHP, MySQL, HTML, CSS, JavaScript (AJAX), jQuery.
+This project implements a user registration, login and profile management system using a LAMP (Linux, Apache, MySQL, PHP) technology stack.
 
 Features
 User registration with name, email and password
