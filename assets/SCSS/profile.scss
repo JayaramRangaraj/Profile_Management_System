@@ -1,0 +1,150 @@
+$color_1: #333;
+$color_2: #818181;
+$color_3: #000;
+$color_4: #e7e7e8;
+$font-family_1: Arial;
+$font-family_2: 'Dancing Script', cursive;
+$font-family_3: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$background-color_1: #e8f5ff;
+$background-color_2: #fff;
+
+/* Import Font Dancing Script */
+@import "https://fonts.googleapis.com/css?family=Dancing+Script";
+/* NavbarTop */
+/* Sidenav */
+/* Main */
+/* End */
+* {
+	margin: 0;
+}
+body {
+	background-color: $background-color_1;
+	font-family: $font-family_1;
+	overflow: hidden;
+}
+.navbar-top {
+	background-color: $background-color_2;
+	color: $color_1;
+	box-shadow: 0px 4px 8px 0px grey;
+	height: 70px;
+}
+.title {
+	font-family: $font-family_2;
+	padding-top: 15px;
+	position: absolute;
+	left: 45%;
+}
+.sidenav {
+	background-color: $background-color_2;
+	color: $color_1;
+	border-bottom-right-radius: 25px;
+	height: 86%;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+	position: absolute;
+	top: 70px;
+	width: 250px;
+}
+.profile {
+	margin-bottom: 20px;
+	margin-top: -12px;
+	text-align: center;
+	img {
+		border-radius: 50%;
+		box-shadow: 0px 0px 5px 1px grey;
+	}
+}
+.name {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.url {
+	text-align: center;
+	hr {
+		margin-left: 20%;
+		width: 60%;
+	}
+	a {
+		color: $color_2;
+		display: block;
+		font-size: 20px;
+		margin: 10px 0;
+		padding: 6px 8px;
+		text-decoration: none;
+		&:hover {
+			background-color: $background-color_1;
+			border-radius: 28px;
+			color: $color_3;
+			margin-left: 14%;
+			width: 65%;
+		}
+	}
+	.active {
+		background-color: $background-color_1;
+		border-radius: 28px;
+		color: $color_3;
+		margin-left: 14%;
+		width: 65%;
+	}
+}
+hr {
+	text-align: center;
+}
+.main {
+	margin-top: 2%;
+	margin-left: 29%;
+	font-size: 28px;
+	padding: 0 10px;
+	width: 58%;
+	h2 {
+		color: $color_1;
+		font-family: $font-family_3;
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.card {
+		background-color: $background-color_2;
+		border-radius: 18px;
+		box-shadow: 1px 1px 8px 0 grey;
+		height: auto;
+		margin-bottom: 20px;
+		padding: 20px 0 20px 50px;
+		table {
+			border: none;
+			font-size: 16px;
+			height: 270px;
+			width: 80%;
+		}
+	}
+	.form{
+		background-color: $background-color_2;
+		border-radius: 18px;
+		box-shadow: 1px 1px 8px 0 grey;
+		height: auto;
+		margin-bottom: 20px;
+		padding: 20px 0 20px 50px;
+		table {
+			border: none;
+			font-size: 19px;
+			height: 270px;
+			width: 80%;
+		}
+	}
+}
+.edit 
+{
+	position: absolute;
+	color: $color_4;
+	right: 14%;
+}
+
+.view
+{
+	display: block;
+}
+.hide
+{
+	display: none;
+}
